@@ -6,7 +6,7 @@ This paper addresses the hyperspectral image (HSI) denoising problem by using St
 
 **Please cite our work if you are interested**
 
- @inproceedings{hvnguyen2020zeroshots2,
+ @inproceedings{hvnguyen2020sure,
   title={{SURE} based Convolutional Neural Networks for Hyperspectral Image Denoising},
   author={Han Van, Nguyen and Magnus Orn, Ulfarsson and Johannes Runar, Sveinsson},
   booktitle={IEEE International Geoscience and Remote Sensing Symposium},
@@ -14,6 +14,12 @@ This paper addresses the hyperspectral image (HSI) denoising problem by using St
   year={2020}
 }
 
+@inproceedings{nguyen2020sure,
+  title={Sure based convolutional neural networks for hyperspectral image denoising},
+  author={Nguyen, Han V and Ulfarsson, Magnus O and Sveinsson, Johannes R},
+  booktitle={Proc. IEEE Geosci. Remote Sens. Symp},
+  year={2020}
+}
 **Usage:**
 
 Run the jupyter notebook file and see the results.
