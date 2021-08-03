@@ -6,12 +6,15 @@ This paper addresses the hyperspectral image (HSI) denoising problem by using St
 
 **Please cite our work if you are interested**
 
- @inproceedings{hvnguyen2020sure,
-  title={{SURE} based Convolutional Neural Networks for Hyperspectral Image Denoising},
-  author={Han Van, Nguyen and Magnus Orn, Ulfarsson and Johannes Runar, Sveinsson},
-  booktitle={IEEE International Geoscience and Remote Sensing Symposium},
-  pages={},
-  year={2020}
+ @article{nguyen2020hyperspectral,
+  title={Hyperspectral Image Denoising Using SURE-Based Unsupervised Convolutional Neural Networks},
+  author={Nguyen, Han V and Ulfarsson, Magnus O and Sveinsson, Johannes R},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={59},
+  number={4},
+  pages={3369--3382},
+  year={2020},
+  publisher={IEEE}
 }
 
 @inproceedings{nguyen2020sure,
@@ -25,7 +28,7 @@ This paper addresses the hyperspectral image (HSI) denoising problem by using St
 Run the jupyter notebook file and see the results.
 
 
- - Data (preprocessing in Matlab) are in folder *his_data/Demo*
+ - Data (preprocessing in Matlab) are in folder *hsi_data/Demo*
      + Data are the simulated noisy PU dataset with $\sigma=50/255$
      + Because of the limitation of the github space, if you need more data, please contact us.
  - CNN models are in folder *models*
