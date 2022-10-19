@@ -1,7 +1,9 @@
 # SURE-CNN
  Official Pyorch codes for the paper "SURE based Convolutional Neural Networks for Hyperspectral Image Denoising", publised in *IEEE Transaction on Geoscience and Remote Sensing (TGRS)*, vol. 59(4), 2020, pp. 3369-3382.<br>
- **Authors:** Han V. Nguyen, Magnus O. Ulfarsson, and Johannes R. Sveinsson <br>
-Faculty of Electrical and Computer Engineering, University of Iceland, Reykjavik, Iceland <br>
+ **Authors:** Han V. Nguyen $^\ast \dagger$, Magnus O. Ulfarsson $^\ast$ and  Johannes R. Sveinsson $^\ast$ <br>
+$^\ast$ Faculty of Electrical and Computer Engineering, University of Iceland, Reykjavik, Iceland<br>
+$^\dagger$ Department of Electrical and Electronic Engineering, Nha Trang University, Khanh Hoa, Vietnam<br>
+Email: hvn2@hi.is<br>
 
 ## Abstract <br>
 This paper addresses the hyperspectral image (HSI) denoising problem by using Stein's unbiased risk estimate (SURE) based convolutional neural network (CNN). Conventional deep learning denoising approaches often use supervised methods that minimize a mean-squared error (MSE) by training on noisy-clean image pairs. In contrast, our proposed CNN-based denoiser is unsupervised and only makes use of noisy images. The method uses SURE, which is an unbiased estimator of the MSE, that does not require any information about the clean image. Therefore minimization of the SURE loss function can accurately estimate the clean image only from noisy observation. Experimental results on both simulated and real hyperspectral datasets show that our proposed method outperforms competitive HSI denoising methods.
