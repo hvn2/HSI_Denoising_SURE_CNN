@@ -39,9 +39,9 @@ The folders contains:<br>
 - Matplotlib
 - Scipy, Skimage
 ## Results
-- **Reduced resolution evaluation**
+- **Simulated dataset**
 ![image](result1.png "a title")
-- **Full resolution evaluation**
+- **Real dataset**
 ![image](result2.png "a title")
 ![image](result3.png "a title")
 
