@@ -1,5 +1,5 @@
 # SURE-CNN
- Official Pyorch codes for the paper "SURE based Convolutional Neural Networks for Hyperspectral Image Denoising", publised in *IEEE Transaction on Geoscience and Remote Sensing (TGRS)*, vol. 59(4), 2020, pp. 3369-3382.<br>
+ Official codes for the paper "SURE based Convolutional Neural Networks for Hyperspectral Image Denoising", publised in *IEEE Transaction on Geoscience and Remote Sensing (TGRS)*, vol. 59(4), 2020, pp. 3369-3382.<br>
  **Authors:** Han V. Nguyen $^\ast \dagger$, Magnus O. Ulfarsson $^\ast$ and  Johannes R. Sveinsson $^\ast$ <br>
 $^\ast$ Faculty of Electrical and Computer Engineering, University of Iceland, Reykjavik, Iceland<br>
 $^\dagger$ Department of Electrical and Electronic Engineering, Nha Trang University, Khanh Hoa, Vietnam<br>
