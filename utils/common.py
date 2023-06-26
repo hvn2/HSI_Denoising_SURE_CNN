@@ -101,8 +101,14 @@ def losshyper(model,x,y,sigma,sure=True,e=1e-3):
     B = tf.reshape(b, [tf.shape(b)[1] * tf.shape(b)[2], tf.shape(b)[3]])
     # mse = (1/N)*tf.reduce_sum(tf.square(Y-OUT),0) # each band mse loss (old version)
     mse = tf.reduce_mean(tf.square(Y - OUT), 0)
+    
+    z = OUT_pertubed - OUT
+    dx = tf.reduce_sum((B * z),0)
+    divMC = dx / e
+    divterm = (2.0 * sigma_sq * divMC) / N #each band
+    sure_loss = mse + divterm - sigma_sq  # each band sureloss
+
     if sure:
         return  tf.reduce_mean(sure_loss), tf.reduce_mean(divterm)
     else:
         return  tf.reduce_mean(mse), tf.reduce_mean(divterm)
-
